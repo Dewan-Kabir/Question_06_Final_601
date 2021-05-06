@@ -1,3 +1,3 @@
-import { getFullName , test_module} from './module_one.js';
+import { getFullName , MAX_FULL_NAME_LENGTH} from './module_one.js';
 
 console.log(getFullName);
