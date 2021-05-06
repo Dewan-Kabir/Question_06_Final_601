@@ -16,11 +16,11 @@
   <body>
     <h1>Hello, world!</h1>
 
+    
+
+    <button class="btn btn-primary" id="button_module" ">Click to populate data</button>
+
     <h1 class="h1_data" id= "h1_populate_h1"></h1>
-
-    <button class="btn btn-primary" id="button_module" onclick="test_data_h1()">Click to populate data</button>
-
-
 
 
 
@@ -31,15 +31,8 @@
 
 
     <script type="module"  >
-    import { getFullName , MAX_FULL_NAME_LENGTH} from './module_one.js';
+    
 
-console.log(getFullName);
-
-
-function test_data_h1(){
-    var test_data = document.getElementById('h1_populate_h1');
-    test_data.innerHTML = MAX_FULL_NAME_LENGTH;
-}
     
     </script>
 

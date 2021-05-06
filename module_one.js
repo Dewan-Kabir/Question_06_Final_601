@@ -2,7 +2,7 @@ export function getFullName() {
     return 'test';
  }
 
- export var MAX_FULL_NAME_LENGTH = 256;
+ export let MAX_FULL_NAME_LENGTH = 256;
 
 
  
