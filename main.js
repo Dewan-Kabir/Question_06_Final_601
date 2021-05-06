@@ -2,7 +2,7 @@ import { getFullName , MAX_FULL_NAME_LENGTH} from './module_one.js';
 
         console.log(getFullName);
 
-
+        document.getElementById("button_module").addEventListener("click", getFullName);
 
    
     document.getElementById("button_module").addEventListener("click", function() {
