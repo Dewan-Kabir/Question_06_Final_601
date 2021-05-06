@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script type="module" src='./module_one.js'></script>
-    <script type="text/javascript"  src='./main.js'></script>
+    
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -30,11 +30,18 @@
 
 
 
-    <script>
+    <script type="module"  >
+    import { getFullName , MAX_FULL_NAME_LENGTH} from './module_one.js';
+
+console.log(getFullName);
 
 
-
-        </script>
+function test_data_h1(){
+    var test_data = document.getElementById('h1_populate_h1');
+    test_data.innerHTML = MAX_FULL_NAME_LENGTH;
+}
+    
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
